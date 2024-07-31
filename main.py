@@ -1,9 +1,14 @@
 import functions
 
-print("Hello World!")
+print("Hello World")
 
-x = 4
+x = 10
 for i in range(x):
-    print(f"Iteration {i}")
+    print(f"We are in loop iteration {i}")
 
-functions.is_prime(14)
+functions.sum(2, 5)
+
+text = "framework"
+
+for i in text:
+    print(i)

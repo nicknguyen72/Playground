@@ -1,7 +1,7 @@
 import math
 
 def sum(x, y):
-    return x + y
+    print(f"{x} + {y} = {x + y}")
 
 def is_prime(num):
     for i in range(2, int(math.sqrt(num))+1):
